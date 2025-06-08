@@ -1,5 +1,5 @@
 1) Task 1
-Create two new files in the screens/ folder: AboutScreen.js and ContactScreen.js.
+a) Create two new files in the screens/ folder: AboutScreen.js and ContactScreen.js.
 Inside these files, set up the AboutScreen and ContactScreen components as function components, and have them both return an empty ScrollView component, with both the opening and closing tags like this: <ScrollView> </ScrollView> (you will be adding content inside the ScrollView in Task 2). Include the necessary imports and set up both components as the default export. 
 Next, update MainComponent. Import the AboutScreen and ContactScreen components.
 You need to create a Stack Navigator for both the AboutScreen and ContactScreen components. Use the Stack Navigator for the HomeScreen (HomeNavigator) as your guide. 
@@ -10,10 +10,13 @@ In the Drawer.Screen tag for the AboutNavigator set the name to 'AboutNav' and i
 In the Drawer.Screen tag for the ContactNavigator set the name to 'ContactNav' and in the options give it a title of 'Contact Us' and set headerShown to false. Set the component to ContactNavigator.
 At the end of this task, you should be able to swipe right on your emulator to bring up the drawer navigator and see the About and Contact Us links there. When you follow them, you will be taken to a blank page, with just the screen title at the top.
 
-https://learn.nucamp.co/pluginfile.php/3322/mod_assign/intro/WorkshopTask1.jpg![image](https://github.com/user-attachments/assets/23c65302-355b-466e-97d7-6aef5294cb74)
 
-2) Task 2
-In this task, you will update the ContactScreen component to show the address of the company HQ as shown in the instruction video as well as the screenshot below. You will only need to update the ContactScreen.js file.
+![Image 1](https://github.com/user-attachments/assets/5c549262-3000-4e27-baf9-28bb24d9c5a1)
+
+
+
+3) Task 2
+a) In this task, you will update the ContactScreen component to show the address of the company HQ as shown in the instruction video as well as the screenshot below. You will only need to update the ContactScreen.js file.
 
 Address information:
 
@@ -32,12 +35,12 @@ Use the Card.Title component inside the opening and closing tag of the Card to s
 Add a Card.Divider self-closing tag after the Card.Title.
 Use multiple Text components from React Native for the address, phone number, and email lines. To add space between the address and the phone number, add a style prop with the value of marginBottom: 10 to the final Text component. (The one that displays "U.S.A")
 
-https://learn.nucamp.co/pluginfile.php/3322/mod_assign/intro/WorkshopTask2.jpg![image](https://github.com/user-attachments/assets/2a398e3f-cb5d-47ad-bddd-efe5d950192f)
 
+![Image](https://github.com/user-attachments/assets/9a4d866e-343a-4bd6-8d7c-9381bb92156e)
 
 
 3) Task 3
-In this task, you will update the AboutScreen component to show the Mission and Community Partners of the company. You will only need to update the AboutScreen.js file.
+a) In this task, you will update the AboutScreen component to show the Mission and Community Partners of the company. You will only need to update the AboutScreen.js file.
 
 You will use the Card layout similar to the ContactScreen to display the company mission statement. This should be implemented in a separate functional component named Mission.
 Use the Card, Card.Title, Card.Divider, and Text components in the Mission component.
@@ -55,5 +58,9 @@ Use an Avatar component in the ListItem with the prop rounded and source setting
  
 Use a ListItem.Content component below the Avatar tag nesting a ListItem.Title and ListItem.Subtitle between the opening and closing tags and using the partner.name for the ListItem.Title and the partner.description for the ListItem.Subtitle.
 
-https://learn.nucamp.co/pluginfile.php/3322/mod_assign/intro/image%20%281%29.png![image](https://github.com/user-attachments/assets/2142ff39-5ff2-4231-8907-5235ad390f68)
+
+![Image 2](https://github.com/user-attachments/assets/f34bee83-ea9c-41d2-b604-3593d0b45971)
+
+
+
 
