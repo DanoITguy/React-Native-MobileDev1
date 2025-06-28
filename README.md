@@ -1,3 +1,78 @@
+# React Native MobileDev1 — QA Practice Project
+
+## 📋 Overview
+
+This project is part of my QA Engineering practice work to strengthen skills in:
+- Manual and automated testing
+- Using **React Native Testing Library** and **Jest** for unit tests
+- Exploring **Cypress** for potential end-to-end (E2E) tests
+- Setting up **CI/CD pipelines** with **GitHub Actions**
+
+The main app is a simple React Native project with core components to test rendering, props, and UI behavior.
+
+---
+
+## ✅ Key Features
+
+- **React Native:** Mobile application built with React Native
+- **Jest:** Unit tests for components
+- **React Native Testing Library:** Rendering and testing of text and UI elements
+- **GitHub Actions:** Automated test runs on push and pull requests
+
+---
+
+## 🧪 Tests Included
+
+- ✅ Check if core screens and components render correctly
+- ✅ Validate props and text content
+- ✅ Example snapshot tests
+- 🚧 Planned: Add Cypress E2E tests for flows (when applicable)
+
+---
+
+## 🚀 How to Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/DanoITguy/React-Native-MobileDev1.git
+
+# Navigate to project folder
+cd React-Native-MobileDev1
+
+# Install dependencies
+npm install
+
+# Run the app (using Expo or React Native CLI)
+npm start
+
+# Run tests
+npm test
+🔄 CI/CD
+This project uses GitHub Actions to automatically:
+
+Install dependencies
+
+Run all Jest tests
+
+Fail builds if tests fail
+
+You can view the workflow config in .github/workflows/ci.yml.
+
+💡 Why This Project?
+I am using this repo to:
+
+Practice writing clear and maintainable test cases
+
+Demonstrate hands-on QA skills alongside my IT and dev background
+
+Prepare for a QA Engineering role on modern React and Node.js stacks
+
+📎 License
+Open-source — for learning and demonstration purposes only.
+
+
+
+
 1) Task 1
 a) Create two new files in the screens/ folder: AboutScreen.js and ContactScreen.js.
 Inside these files, set up the AboutScreen and ContactScreen components as function components, and have them both return an empty ScrollView component, with both the opening and closing tags like this: <ScrollView> </ScrollView> (you will be adding content inside the ScrollView in Task 2). Include the necessary imports and set up both components as the default export. 
